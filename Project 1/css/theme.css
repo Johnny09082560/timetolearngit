@@ -1,0 +1,181 @@
+:root {
+    --text-color: rgba(2, 48, 71, 1);
+    --primary-color: rgba(142, 202, 230, 1);
+    --secondary-color: rgba(255, 183, 3, 1);
+    --background-color: rgba(228, 241, 247, 1)
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.container {
+    color: var(--text-color);
+    max-width: 1160px;
+    margin: 0px auto 0px auto;
+    background-color: var(--background-color);
+    border-radius: 10px 10px 0px 0px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: var(--primary-color);
+    border-radius: 10px 10px 0px 0px;
+}
+
+li {
+    float: left;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: var(--secondary-color);
+}
+
+input[type=email],
+input[type=submit],
+input,
+select,
+textarea {
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid var(--primary-color);
+    background-color: var(--background-color)
+}
+
+select {
+    color: rgb(134, 131, 131);
+}
+
+input[type=submit] {
+    color: var(--primary-color);
+}
+
+input[type=submit]:hover {
+    background-color: var(--secondary-color);
+    color: var(--background-color);
+    border: 2px solid var(--secondary-color);
+}
+
+.active {
+    background-color: var(--secondary-color);
+}
+
+.profielfoto {
+    width: 366px;
+}
+
+.flexbox-horizontal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px 0px 30px;
+}
+
+.flexbox-horizontal-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px 30px 0px 30px;
+}
+
+.max-width {
+    max-width: 400px;
+    padding-bottom: 130px;
+}
+
+.max-width-hobby {
+    max-width: 400px;
+}
+
+.footer {
+    background-color: var(--primary-color);
+    border-radius: 0px 0px 10px 10px;
+    padding: 30px;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.footer-link:hover {
+    color: var(--secondary-color);
+}
+
+.flexbox-vertical-flexstart {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.flexbox-horizontal-flexstart {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px 30px 0px 30px;
+}
+
+.center-alignment {
+    text-align: center;
+}
+
+.padding-bottom-60px {
+    padding-bottom: 60px;
+}
+
+.padding-left-30px {
+    padding: 0px 0px 0px 30px;
+}
+
+.margin-right-30px {
+    margin-right: 30px;
+}
+
+.margin-left-30px {
+    margin-left: 30px;
+}
+
+.margin-bottom-30px {
+    margin-bottom: 30px;
+}
+
+.width-266px {
+    width: 266px;
+}
+
+.width-290px {
+    width: 290px;
+}
+
+.width-586px {
+    width: 586px;
+}
+
+.width {
+    width: 370px;
+}
